@@ -77,7 +77,7 @@ def visualize_metrics(metrics_df):
     plt.show()
 
 # Análisis del proyecto
-project_path = 'C:/Users/afbm2/Downloads/Estadistica'  # Cambia esta ruta según tu directorio
+project_path = './Estadistica'  # Cambia esta ruta según tu directorio
 project_metrics = analyze_directory(project_path)
 
 # Comprobar si hay métricas válidas
